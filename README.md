@@ -31,7 +31,9 @@
 
 Arguments:
 **quote** - **Required** Quote currency code (ISO 4217 standard).
+
 **base** - **Optional**. Base currency code. (ISO 4217 standard). By default it's RUR
+
 **days** - **Optional**. Store data with given range of days. By default it's 1, and stores today's rate data.
 
 > **_NOTE:_** before calling this make sure you have running queue worker. In order to run in you local, call `$ php artisan queue:work` command.
