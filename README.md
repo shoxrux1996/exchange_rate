@@ -2,7 +2,7 @@
 
 ### About
 
--   App receives exchange rate info and storees returned data to the txt file.
+-   App receives exchange rate info and stores returned data to the txt file.
 
 ### Server Requirements
 
@@ -27,7 +27,7 @@
 
 ### Quick Usage
 
-`$ $ php artisan queue:work {quote} {base} {days}` - Call this command to collect the rates with given range of days.
+`$ php artisan queue:work {quote} {base} {days}` - Call this command to collect the rates with given range of days.
 
 Arguments:
 **quote** - **Required** Quote currency code (ISO 4217 standard).
